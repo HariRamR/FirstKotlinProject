@@ -1,0 +1,2 @@
+com/hari/firstkotlinproj/test/BuildConfig.java
+ com.hari.firstkotlinproj.test.BuildConfig
