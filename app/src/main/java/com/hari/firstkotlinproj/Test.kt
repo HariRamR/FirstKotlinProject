@@ -64,4 +64,15 @@ fun main(){
     }
     test.sayHi(s1)
 
+    for(ins in 2..10 step 2){
+
+        println(ins)
+    }
+    for(ins in 10 downTo 2 step 2){
+
+        println(ins)
+    }
+
+    println(BuildConfig.KEY_VALUE)
+
 }

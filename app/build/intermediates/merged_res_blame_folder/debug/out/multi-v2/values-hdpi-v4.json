@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/vinothhari/Desktop/FirstKotlinproj/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hdpi-v4/values-hdpi-v4.xml",
+            "outputFile": "C:\\Users\\vinot\\AndroidStudioProjects\\FirstKotlinproj\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-hdpi-v4\\values-hdpi-v4.xml",
             "map": [
                 {
-                    "source": "/Users/vinothhari/.gradle/caches/transforms-2/files-2.1/5770c2903903e422886f0f5457d5e60d/appcompat-1.2.0/res/values-hdpi-v4/values-hdpi-v4.xml",
+                    "source": "C:\\Users\\vinot\\.gradle\\caches\\transforms-2\\files-2.1\\5770c2903903e422886f0f5457d5e60d\\appcompat-1.2.0\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
