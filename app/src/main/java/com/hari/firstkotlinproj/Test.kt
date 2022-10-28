@@ -1,5 +1,8 @@
 package com.hari.firstkotlinproj
 
+import com.hari.firstkotlinproj.data.DataClass
+import com.hari.firstkotlinproj.object_cass.User
+
 class Test (s:String): Test2(), TestInterface{
 
     private constructor(): this(""){}
@@ -46,15 +49,16 @@ fun main(){
 
 //    val test: Test = Test.create()
 
-    val test: Test = Test.create()
+    /*val test: Test = Test.create()
 
     test.testing()
 
     val arr = arrayOf("a", "b", "--------", null)
-    test.testing(*arr)
+    test.testing(*arr) // will send a, b, ---------, null -> all values as single vararg type
 
     test.sayHi("Hari")
 
+    //enum
     var s = EnumTest.Easy
 
     val s1 = when(s){
@@ -73,6 +77,13 @@ fun main(){
         println(ins)
     }
 
-    println(BuildConfig.KEY_VALUE)
+    println(BuildConfig.KEY_VALUE)*/
+
+    // data class
+    /*val dataClass: DataClass = DataClass("Hari", 10)
+    println("Age of ${dataClass.name} is ${dataClass.age}")*/
+
+    //object class
+    User.printObject("Hari", 11)
 
 }
