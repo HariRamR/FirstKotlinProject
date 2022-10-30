@@ -11,7 +11,7 @@ class Test (s:String): Test2(), TestInterface{
 
     companion object SecondaryConst{ // secondary constructor has no parameters but it is private so to init it we use companion object
 
-        fun create(): Test{
+        fun create(): Test{ // factory method
             return Test()
         }
     }
