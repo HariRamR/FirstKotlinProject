@@ -86,4 +86,11 @@ fun main(){
     //object class
     User.printObject("Hari", 11)
 
+    // Sealed class
+    val value = SealedClassEx.Success("Success") as SealedClassEx
+    var s2 = when(value){
+        is SealedClassEx.Success -> println(value.data)
+        SealedClassEx.Loading -> Unit
+    }
+
 }
