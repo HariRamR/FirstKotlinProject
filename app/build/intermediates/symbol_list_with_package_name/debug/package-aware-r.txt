@@ -1823,6 +1823,7 @@ id disableHome
 id disablePostScroll
 id disableScroll
 id disjoint
+id done_button
 id dragDown
 id dragEnd
 id dragLeft
@@ -1982,6 +1983,7 @@ id right_icon
 id right_side
 id rounded
 id row_index_key
+id sample_text
 id save_non_transition_alpha
 id save_overlay_view
 id sawtooth
@@ -2237,6 +2239,7 @@ layout text_view_with_line_height_from_layout
 layout text_view_with_line_height_from_style
 layout text_view_with_theme_line_height
 layout text_view_without_line_height
+layout view_binding_sample
 mipmap ic_launcher
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description

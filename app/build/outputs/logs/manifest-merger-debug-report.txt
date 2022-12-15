@@ -4,6 +4,7 @@ ADDED from C:\Users\vinot\AndroidStudioProjects\FirstKotlinproj\app\src\main\And
 INJECTED from C:\Users\vinot\AndroidStudioProjects\FirstKotlinproj\app\src\main\AndroidManifest.xml:2:1-21:12
 INJECTED from C:\Users\vinot\AndroidStudioProjects\FirstKotlinproj\app\src\main\AndroidManifest.xml:2:1-21:12
 INJECTED from C:\Users\vinot\AndroidStudioProjects\FirstKotlinproj\app\src\main\AndroidManifest.xml:2:1-21:12
+MERGED from [androidx.databinding:viewbinding:4.1.2] C:\Users\vinot\.gradle\caches\transforms-2\files-2.1\9f8cfd3eac1f76be3253c1891f484fcd\jetified-viewbinding-4.1.2\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.core:core-ktx:1.3.2] C:\Users\vinot\.gradle\caches\transforms-2\files-2.1\34b10be075127da7299615e7781433cf\jetified-core-ktx-1.3.2\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.material:material:1.3.0] C:\Users\vinot\.gradle\caches\transforms-2\files-2.1\02bff60d7d1ab760b99a0d12fc1419f0\material-1.3.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\vinot\.gradle\caches\transforms-2\files-2.1\90a09e06d155f3c8b1250bdc2a9e4990\constraintlayout-2.0.4\AndroidManifest.xml:2:1-11:12
@@ -80,10 +81,10 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\vi
 		ADDED from C:\Users\vinot\AndroidStudioProjects\FirstKotlinproj\app\src\main\AndroidManifest.xml:6:9-35
 	android:theme
 		ADDED from C:\Users\vinot\AndroidStudioProjects\FirstKotlinproj\app\src\main\AndroidManifest.xml:11:9-53
-activity#com.hari.firstkotlinproj.MainActivity
+activity#com.hari.firstkotlinproj.view_binding.ViewBindingSample
 ADDED from C:\Users\vinot\AndroidStudioProjects\FirstKotlinproj\app\src\main\AndroidManifest.xml:12:9-18:20
 	android:name
-		ADDED from C:\Users\vinot\AndroidStudioProjects\FirstKotlinproj\app\src\main\AndroidManifest.xml:12:19-71
+		ADDED from C:\Users\vinot\AndroidStudioProjects\FirstKotlinproj\app\src\main\AndroidManifest.xml:12:19-65
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
 ADDED from C:\Users\vinot\AndroidStudioProjects\FirstKotlinproj\app\src\main\AndroidManifest.xml:13:13-17:29
 action#android.intent.action.MAIN
@@ -98,6 +99,8 @@ uses-sdk
 INJECTED from C:\Users\vinot\AndroidStudioProjects\FirstKotlinproj\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\vinot\AndroidStudioProjects\FirstKotlinproj\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\vinot\AndroidStudioProjects\FirstKotlinproj\app\src\main\AndroidManifest.xml
+MERGED from [androidx.databinding:viewbinding:4.1.2] C:\Users\vinot\.gradle\caches\transforms-2\files-2.1\9f8cfd3eac1f76be3253c1891f484fcd\jetified-viewbinding-4.1.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.databinding:viewbinding:4.1.2] C:\Users\vinot\.gradle\caches\transforms-2\files-2.1\9f8cfd3eac1f76be3253c1891f484fcd\jetified-viewbinding-4.1.2\AndroidManifest.xml:20:5-44
 MERGED from [androidx.core:core-ktx:1.3.2] C:\Users\vinot\.gradle\caches\transforms-2\files-2.1\34b10be075127da7299615e7781433cf\jetified-core-ktx-1.3.2\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.core:core-ktx:1.3.2] C:\Users\vinot\.gradle\caches\transforms-2\files-2.1\34b10be075127da7299615e7781433cf\jetified-core-ktx-1.3.2\AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.android.material:material:1.3.0] C:\Users\vinot\.gradle\caches\transforms-2\files-2.1\02bff60d7d1ab760b99a0d12fc1419f0\material-1.3.0\AndroidManifest.xml:20:5-44

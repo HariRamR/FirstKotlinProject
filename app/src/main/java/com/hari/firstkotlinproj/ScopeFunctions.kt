@@ -5,8 +5,6 @@ import com.hari.firstkotlinproj.data.DataClass
 
 class ScopeFunctions {
 
-
-
     fun scopeMethod(){
 
         // 'let' is used to handle non null block of code
