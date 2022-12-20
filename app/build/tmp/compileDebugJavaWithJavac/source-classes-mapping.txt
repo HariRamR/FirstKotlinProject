@@ -2,5 +2,7 @@ com/hari/firstkotlinproj/databinding/ActivityMainBinding.java
  com.hari.firstkotlinproj.databinding.ActivityMainBinding
 com/hari/firstkotlinproj/databinding/ViewBindingSampleBinding.java
  com.hari.firstkotlinproj.databinding.ViewBindingSampleBinding
+com/hari/firstkotlinproj/databinding/FlowActivityBinding.java
+ com.hari.firstkotlinproj.databinding.FlowActivityBinding
 com/hari/firstkotlinproj/BuildConfig.java
  com.hari.firstkotlinproj.BuildConfig

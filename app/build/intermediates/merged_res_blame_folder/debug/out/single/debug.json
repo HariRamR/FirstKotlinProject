@@ -16,6 +16,10 @@
         "source": "C:\\Users\\vinot\\AndroidStudioProjects\\FirstKotlinproj\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
+        "merged": "C:\\Users\\vinot\\AndroidStudioProjects\\FirstKotlinproj\\app\\build\\intermediates\\res\\merged\\debug\\layout_flow_activity.xml.flat",
+        "source": "C:\\Users\\vinot\\AndroidStudioProjects\\FirstKotlinproj\\app\\src\\main\\res\\layout\\flow_activity.xml"
+    },
+    {
         "merged": "C:\\Users\\vinot\\AndroidStudioProjects\\FirstKotlinproj\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\vinot\\AndroidStudioProjects\\FirstKotlinproj\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     },

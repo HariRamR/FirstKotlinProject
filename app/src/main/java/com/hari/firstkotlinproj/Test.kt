@@ -84,13 +84,27 @@ fun main(){
     println("Age of ${dataClass.name} is ${dataClass.age}")*/
 
     //object class
-    User.printObject("Hari", 11)
+//    User.printObject("Hari", 11)
 
     // Sealed class
-    val value = SealedClassEx.Success("Success") as SealedClassEx
-    var s2 = when(value){
+    /*val value = SealedClassEx.getOutput("success")
+    when(value){
+        is SealedClassEx.Error -> println(value.error)
         is SealedClassEx.Success -> println(value.data)
         SealedClassEx.Loading -> Unit
+    }*/
+
+    var j = 2; //4
+    var currentNo = 0; //6
+    for (i in 1..6){
+//        println((i*(i+1))/2)
+        if(i > 1){
+            currentNo += j
+            j++
+        }else{
+            currentNo = 1
+        }
+        println(currentNo) //1,3,6,10, 15
     }
 
 }

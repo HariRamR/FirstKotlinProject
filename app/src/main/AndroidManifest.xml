@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.FirstKotlinProj">
-        <activity android:name=".view_binding.ViewBindingSample">
+        <activity android:name=".flow_sample.ui.FlowActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
