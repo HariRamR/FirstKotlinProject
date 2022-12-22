@@ -2,6 +2,7 @@ package com.hari.firstkotlinproj
 
 import com.hari.firstkotlinproj.data.DataClass
 import com.hari.firstkotlinproj.object_cass.User
+import java.util.*
 
 class Test (s:String): Test2(), TestInterface{
 
@@ -17,6 +18,7 @@ class Test (s:String): Test2(), TestInterface{
     }
 
     override fun testing(vararg string: String?){
+        
         val s: String? = null; // nullable
 //        println(s)
 
@@ -94,7 +96,7 @@ fun main(){
         SealedClassEx.Loading -> Unit
     }*/
 
-    var j = 2; //4
+    /*var j = 2; //4
     var currentNo = 0; //6
     for (i in 1..6){
 //        println((i*(i+1))/2)
@@ -105,6 +107,18 @@ fun main(){
             currentNo = 1
         }
         println(currentNo) //1,3,6,10, 15
-    }
+    }*/
+
+    val str = "welcome to ".lowercase(Locale.getDefault())
+    println(str capitalized "my repo")
 
 }
+
+infix fun String.capitalized(destination: String): String =
+     this.replaceFirstChar {
+            ch-> if(ch.isLowerCase()){
+        ch.titlecase(Locale.getDefault())
+    }else this
+    } + destination
+
+
